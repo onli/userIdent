@@ -1,0 +1,14 @@
+UserIdent is a user-recogniser using body-shape and voice.
+It uses the kinect, OSCeleton and the Mistral-framework.
+
+= Install =
+ * Move userIdentHome to ~/.userIdent
+ * Install Dependencies for OSCeleton, see https://github.com/avin2/SensorKinect
+  * Install OpenNI
+  * Install NITE
+ * If not using Linux 32-Bit: 
+  * replace the files in ~/.userIdent/bin with
+    a new version of Mistral, see http://mistral.univ-avignon.fr/index_en.html
+  * replace osceleton with a new version, see https://github.com/Sensebloom/OSCeleton
+
+Now execute demo.sh or import into eclipse
